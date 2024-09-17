@@ -53,7 +53,7 @@ body{
 }
 .score::after{
     content: '';
-    display: block; /*new*/
+    display: block;
 }
 .compliment {
     width: 80%;
