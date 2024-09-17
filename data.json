@@ -1,0 +1,30 @@
+  [
+    {
+      "category": "Reaction",
+      "score": 80,
+      "icon": "./assets/images/icon-reaction.svg",
+      "altTxt": "flash-icon",
+      "class": "reaction"
+    },
+    {
+      "category": "Memory",
+      "score": 92,
+      "icon": "./assets/images/icon-memory.svg",
+      "altTxt": "brain-icon",
+      "class": "memory"
+    },
+    {
+      "category": "Verbal",
+      "score": 61,
+      "icon": "./assets/images/icon-verbal.svg",
+      "altTxt": "chat-icon",
+      "class": "verbal"
+    },
+    {
+      "category": "Visual",
+      "score": 72,
+      "icon": "./assets/images/icon-visual.svg",
+      "altTxt": "eye-icon",
+      "class": "visual"
+    }
+  ]
