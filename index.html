@@ -16,37 +16,36 @@
   </head>
 
   <body>
-
-    <div class="container-fluid">
-      <section class="result">
-        <div class="result-display flex">
-          <p class="result-head bolder lavender">Your Result</p>
-  
+    <section class="result-card flex">
+      <div class="container">
+        <!-- upper section -->
+        <div class="upper-part result-display flex">
+          <div>
+            <p class="result-heading lavendar">Your Result</p>
+          </div>
           <div class="circle flex">
             <p class="">
-            <span class="score bolder">76</span>
-            <span class="lavender">of <span class="total">100</span></span>
+              <span class="white grade bg-size">76</span>
+              <span class="lavendar total sm-size">of 100</span>
             </p>
           </div>
-  
-          <div class="compliment">
-            <h3 class="bolder">Great</h3>
-            <p class="paragraph lavender">
-              You scored higher than 65% of the people who have taken these tests
+          <div class="result-comment">
+            <h2 class="white">Great</h2>
+            <p class="lavendar sm-size">
+              You scored higher than 65% of the people who have taken these
+              tests.
             </p>
-          </div>      
+          </div>
         </div>
-      </section>
-  
-      <section class="summary">
-        <div class="summary-display container">
+        <!-- lower section -->
+        <div class="lower-part result-summary">
           <h2>Summary</h2>
-  
+
           <div class="break-down" id="dataDisplay">
             <!-- reaction -->
             <!-- <div class="reaction sum-properties flex">
               <div class="flex gap">
-                <img src="./assets/images/icon-reaction.svg" alt="flash-icon">
+                <img src="./assets/images/icon-reaction.svg" alt="flash-icon" />
                 <p>Reaction</p>
               </div>
               <p class="light-font">
@@ -57,7 +56,7 @@
             <!-- memory -->
             <!-- <div class="memory sum-properties flex">
               <div class="flex gap">
-                <img src="./assets/images/icon-memory.svg" alt="brain-icon">
+                <img src="./assets/images/icon-memory.svg" alt="brain-icon" />
                 <p>Memory</p>
               </div>
               <p class="light-font">
@@ -68,7 +67,7 @@
             <!-- verbal -->
             <!-- <div class="verbal sum-properties flex">
               <div class="flex gap">
-                <img src="./assets/images/icon-verbal.svg" alt="chat-icon">
+                <img src="./assets/images/icon-verbal.svg" alt="chat-icon" />
                 <p>Verbal</p>
               </div>
               <p class="light-font">
@@ -79,7 +78,7 @@
             <!-- visual -->
             <!-- <div class="visual sum-properties flex">
               <div class="flex gap">
-                <img src="./assets/images/icon-visual.svg" alt="eye-icon">
+                <img src="./assets/images/icon-visual.svg" alt="eye-icon" />
                 <p>Visual</p>
               </div>
               <p class="light-font">
@@ -88,19 +87,15 @@
               </p>
             </div> -->
           </div>
-  
+
+          <!-- continue button -->
           <div class="button">
             <button type="submit" class="">Continue</button>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
-    <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
-
-  <script src="result.js"></script>
+    <script src="result.js"></script>
   </body>
 </html>
